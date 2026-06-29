@@ -1,0 +1,350 @@
+2026-06-29T10:14:31.506Z  INFO 31520 --- [yamrestor] [restartedMain] yamrestor.restor.RestorApplication       : Starting RestorApplication using Java 17.0.12 with PID 31520 (C:\projet-spring\yamrestor\yamrestor-back\target\classes started by HP in C:\projet-spring\yamrestor\yamrestor-back)
+2026-06-29T10:14:31.508Z  INFO 31520 --- [yamrestor] [restartedMain] yamrestor.restor.RestorApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-06-29T10:14:31.560Z  INFO 31520 --- [yamrestor] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-29T10:14:31.560Z  INFO 31520 --- [yamrestor] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-29T10:14:32.959Z  INFO 31520 --- [yamrestor] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-29T10:14:33.221Z  INFO 31520 --- [yamrestor] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 250 ms. Found 42 JPA repository interfaces.
+2026-06-29T10:14:34.052Z  INFO 31520 --- [yamrestor] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-06-29T10:14:34.068Z  INFO 31520 --- [yamrestor] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-29T10:14:34.069Z  INFO 31520 --- [yamrestor] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-06-29T10:14:34.118Z  INFO 31520 --- [yamrestor] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-29T10:14:34.119Z  INFO 31520 --- [yamrestor] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2557 ms
+2026-06-29T10:14:34.288Z  INFO 31520 --- [yamrestor] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-29T10:14:34.367Z  INFO 31520 --- [yamrestor] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.53.Final
+2026-06-29T10:14:34.403Z  INFO 31520 --- [yamrestor] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-06-29T10:14:34.730Z  INFO 31520 --- [yamrestor] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-29T10:14:34.769Z  INFO 31520 --- [yamrestor] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-29T10:14:35.046Z  INFO 31520 --- [yamrestor] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@25bdfa04
+2026-06-29T10:14:35.048Z  INFO 31520 --- [yamrestor] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-29T10:14:35.173Z  INFO 31520 --- [yamrestor] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-29T10:14:37.167Z  INFO 31520 --- [yamrestor] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-29T10:14:37.566Z  INFO 31520 --- [yamrestor] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-29T10:14:37.868Z  INFO 31520 --- [yamrestor] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-29T10:14:39.574Z  INFO 31520 --- [yamrestor] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-29T10:14:41.275Z  WARN 31520 --- [yamrestor] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2026-06-29T10:14:41.522Z  INFO 31520 --- [yamrestor] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-06-29T10:14:41.569Z  INFO 31520 --- [yamrestor] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-06-29T10:14:41.579Z  INFO 31520 --- [yamrestor] [restartedMain] yamrestor.restor.RestorApplication       : Started RestorApplication in 10.565 seconds (process running for 11.057)
+2026-06-29T10:14:42.084Z  WARN 31520 --- [yamrestor] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-06-29T10:14:42.084Z  WARN 31520 --- [yamrestor] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-06-29T10:14:45.597Z  INFO 31520 --- [yamrestor] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-29T10:14:45.598Z  INFO 31520 --- [yamrestor] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-29T10:14:45.599Z  INFO 31520 --- [yamrestor] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-06-29T10:14:46.129Z  WARN 31520 --- [yamrestor] [http-nio-8080-exec-5] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2026-06-29T10:40:48.227Z  INFO 31520 --- [yamrestor] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 493 class path changes (0 additions, 492 deletions, 1 modification)
+2026-06-29T10:40:48.319Z  INFO 31520 --- [yamrestor] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-29T10:40:48.896Z  INFO 31520 --- [yamrestor] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-06-29T10:40:48.956Z  INFO 31520 --- [yamrestor] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-29T10:40:48.989Z  INFO 31520 --- [yamrestor] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-29T10:40:48.994Z  INFO 31520 --- [yamrestor] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-29T10:40:49.374Z  INFO 31520 --- [yamrestor] [restartedMain] yamrestor.restor.RestorApplication       : Starting RestorApplication using Java 17.0.12 with PID 31520 (C:\projet-spring\yamrestor\yamrestor-back\target\classes started by HP in C:\projet-spring\yamrestor\yamrestor-back)
+2026-06-29T10:40:49.374Z  INFO 31520 --- [yamrestor] [restartedMain] yamrestor.restor.RestorApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-06-29T10:40:49.709Z  INFO 31520 --- [yamrestor] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-29T10:40:49.713Z  INFO 31520 --- [yamrestor] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2026-06-29T10:40:49.882Z  INFO 31520 --- [yamrestor] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-06-29T10:40:49.884Z  INFO 31520 --- [yamrestor] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-29T10:40:49.885Z  INFO 31520 --- [yamrestor] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-06-29T10:40:49.918Z  INFO 31520 --- [yamrestor] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-29T10:40:49.919Z  INFO 31520 --- [yamrestor] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 541 ms
+2026-06-29T10:40:49.960Z  INFO 31520 --- [yamrestor] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-29T10:40:49.964Z  INFO 31520 --- [yamrestor] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-06-29T10:40:49.981Z  INFO 31520 --- [yamrestor] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-29T10:40:49.983Z  INFO 31520 --- [yamrestor] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-06-29T10:40:50.072Z  INFO 31520 --- [yamrestor] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@7e1ca81b
+2026-06-29T10:40:50.073Z  INFO 31520 --- [yamrestor] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-06-29T10:40:50.100Z  INFO 31520 --- [yamrestor] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-29T10:40:50.126Z  INFO 31520 --- [yamrestor] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-29T10:40:50.127Z  INFO 31520 --- [yamrestor] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-29T10:40:50.239Z  WARN 31520 --- [yamrestor] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2026-06-29T10:40:50.325Z  WARN 31520 --- [yamrestor] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 68fa13ea-78b0-48d3-aed3-255217de7813
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-06-29T10:40:50.378Z  INFO 31520 --- [yamrestor] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-06-29T10:40:50.388Z  INFO 31520 --- [yamrestor] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-06-29T10:40:50.395Z  INFO 31520 --- [yamrestor] [restartedMain] yamrestor.restor.RestorApplication       : Started RestorApplication in 1.094 seconds (process running for 1579.872)
+2026-06-29T10:40:50.396Z  WARN 31520 --- [yamrestor] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-06-29T10:40:50.397Z  WARN 31520 --- [yamrestor] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-06-29T10:40:50.401Z  INFO 31520 --- [yamrestor] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   SpringBootWebSecurityConfiguration.SecurityFilterChainConfiguration matched:
+      - AllNestedConditions 2 matched 0 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) did not find any beans; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   SpringBootWebSecurityConfiguration.WebSecurityEnablerConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+      - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   SpringDataWebAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'org.springframework.data.web.PageableHandlerMethodArgumentResolver', 'org.springframework.web.servlet.config.annotation.WebMvcConfigurer' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.data.web.PageableHandlerMethodArgumentResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   SpringDataWebAutoConfiguration#pageableCustomizer matched:
+      - @ConditionalOnMissingBean (types: org.springframework.data.web.config.PageableHandlerMethodArgumentResolverCustomizer; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   SpringDataWebAutoConfiguration#sortCustomizer matched:
+      - @ConditionalOnMissingBean (types: org.springframework.data.web.config.SortHandlerMethodArgumentResolverCustomizer; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   SpringDataWebAutoConfiguration#springDataWebSettings matched:
+      - @ConditionalOnMissingBean (types: org.springframework.data.web.config.SpringDataWebSettings; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   UserDetailsServiceAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - AnyNestedCondition 1 matched 2 did not; NestedCondition on UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured.PasswordConfigured @ConditionalOnProperty (spring.security.user.password) did not find property 'spring.security.user.password'; NestedCondition on UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured.NameConfigured @ConditionalOnProperty (spring.security.user.name) did not find property 'spring.security.user.name'; NestedCondition on UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured.MissingAlternative @ConditionalOnMissingClass did not find unwanted classes 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository', 'org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector', 'org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository' (UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured)
+      - @ConditionalOnBean (types: org.springframework.security.config.ObjectPostProcessor; SearchStrategy: all) found beans 'objectPostProcessor', 'webAuthorizationManagerPostProcessor', 'filterChainDecoratorPostProcessor', 'authenticationManagerPostProcessor'; @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,org.springframework.security.oauth2.jwt.JwtDecoder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2026-06-29T10:40:59.132Z  INFO 31520 --- [yamrestor] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 492 class path changes (492 additions, 0 deletions, 0 modifications)
+2026-06-29T10:40:59.136Z  INFO 31520 --- [yamrestor] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-29T10:40:59.773Z  INFO 31520 --- [yamrestor] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-06-29T10:40:59.775Z  INFO 31520 --- [yamrestor] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-29T10:40:59.776Z  INFO 31520 --- [yamrestor] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-06-29T10:40:59.778Z  INFO 31520 --- [yamrestor] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2026-06-29T10:40:59.874Z  INFO 31520 --- [yamrestor] [restartedMain] yamrestor.restor.RestorApplication       : Starting RestorApplication using Java 17.0.12 with PID 31520 (C:\projet-spring\yamrestor\yamrestor-back\target\classes started by HP in C:\projet-spring\yamrestor\yamrestor-back)
+2026-06-29T10:40:59.874Z  INFO 31520 --- [yamrestor] [restartedMain] yamrestor.restor.RestorApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-06-29T10:41:01.472Z  INFO 31520 --- [yamrestor] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-29T10:41:02.212Z  INFO 31520 --- [yamrestor] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 736 ms. Found 42 JPA repository interfaces.
+2026-06-29T10:41:02.718Z  INFO 31520 --- [yamrestor] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-06-29T10:41:02.728Z  INFO 31520 --- [yamrestor] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-29T10:41:02.740Z  INFO 31520 --- [yamrestor] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-06-29T10:41:02.802Z  INFO 31520 --- [yamrestor] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-29T10:41:02.803Z  INFO 31520 --- [yamrestor] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2927 ms
+2026-06-29T10:41:03.032Z  INFO 31520 --- [yamrestor] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-29T10:41:03.039Z  INFO 31520 --- [yamrestor] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-06-29T10:41:03.067Z  INFO 31520 --- [yamrestor] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-29T10:41:03.070Z  INFO 31520 --- [yamrestor] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2026-06-29T10:41:03.203Z  INFO 13532 --- [yamrestor] [restartedMain] yamrestor.restor.RestorApplication       : Starting RestorApplication using Java 19 with PID 13532 (C:\projet-spring\yamrestor\yamrestor-back\target\classes started by HP in C:\projet-spring\yamrestor\yamrestor-back)
+2026-06-29T10:41:03.207Z  INFO 13532 --- [yamrestor] [restartedMain] yamrestor.restor.RestorApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-06-29T10:41:03.267Z  INFO 31520 --- [yamrestor] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@6a4c7023
+2026-06-29T10:41:03.268Z  INFO 31520 --- [yamrestor] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2026-06-29T10:41:03.295Z  INFO 31520 --- [yamrestor] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-29T10:41:03.303Z  INFO 13532 --- [yamrestor] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-29T10:41:03.303Z  INFO 13532 --- [yamrestor] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-29T10:41:04.759Z  INFO 31520 --- [yamrestor] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-29T10:41:05.338Z  INFO 31520 --- [yamrestor] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-29T10:41:05.899Z  INFO 13532 --- [yamrestor] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-29T10:41:06.063Z  INFO 31520 --- [yamrestor] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-29T10:41:06.271Z  INFO 13532 --- [yamrestor] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 360 ms. Found 42 JPA repository interfaces.
+2026-06-29T10:41:07.722Z  WARN 31520 --- [yamrestor] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2026-06-29T10:41:07.819Z  INFO 13532 --- [yamrestor] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-06-29T10:41:07.846Z  INFO 13532 --- [yamrestor] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-29T10:41:07.846Z  INFO 13532 --- [yamrestor] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-06-29T10:41:07.862Z  INFO 31520 --- [yamrestor] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-06-29T10:41:07.888Z  INFO 31520 --- [yamrestor] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-06-29T10:41:07.895Z  INFO 31520 --- [yamrestor] [restartedMain] yamrestor.restor.RestorApplication       : Started RestorApplication in 8.041 seconds (process running for 1597.373)
+2026-06-29T10:41:07.929Z  INFO 13532 --- [yamrestor] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-29T10:41:07.930Z  INFO 13532 --- [yamrestor] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4626 ms
+2026-06-29T10:41:08.224Z  INFO 13532 --- [yamrestor] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-29T10:41:08.246Z  WARN 31520 --- [yamrestor] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-06-29T10:41:08.246Z  WARN 31520 --- [yamrestor] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-06-29T10:41:08.248Z  INFO 31520 --- [yamrestor] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   SpringBootWebSecurityConfiguration.SecurityFilterChainConfiguration:
+      Did not match:
+         - AllNestedConditions 1 matched 1 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) found beans of type 'org.springframework.security.web.SecurityFilterChain' filterChain; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   SpringBootWebSecurityConfiguration.WebSecurityEnablerConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) found beans named springSecurityFilterChain (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+
+   SpringDataWebAutoConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.data.web.PageableHandlerMethodArgumentResolver; SearchStrategy: all) found beans of type 'org.springframework.data.web.PageableHandlerMethodArgumentResolver' pageableResolver (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required classes 'org.springframework.data.web.PageableHandlerMethodArgumentResolver', 'org.springframework.web.servlet.config.annotation.WebMvcConfigurer' (OnClassCondition)
+         - found 'session' scope (OnWebApplicationCondition)
+
+   UserDetailsServiceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,org.springframework.security.oauth2.jwt.JwtDecoder; SearchStrategy: all) found beans of type 'org.springframework.security.authentication.AuthenticationManager' authenticationManager and found beans of type 'org.springframework.security.core.userdetails.UserDetailsService' userDetailsServiceImpl and found beans of type 'org.springframework.security.authentication.AuthenticationProvider' authenticationProvider (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+         - found 'session' scope (OnWebApplicationCondition)
+         - AnyNestedCondition 1 matched 2 did not; NestedCondition on UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured.PasswordConfigured @ConditionalOnProperty (spring.security.user.password) did not find property 'spring.security.user.password'; NestedCondition on UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured.NameConfigured @ConditionalOnProperty (spring.security.user.name) did not find property 'spring.security.user.name'; NestedCondition on UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured.MissingAlternative @ConditionalOnMissingClass did not find unwanted classes 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository', 'org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector', 'org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository' (UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2026-06-29T10:41:08.312Z  INFO 13532 --- [yamrestor] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.53.Final
+2026-06-29T10:41:08.359Z  INFO 13532 --- [yamrestor] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-06-29T10:41:08.723Z  INFO 13532 --- [yamrestor] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-29T10:41:08.764Z  INFO 13532 --- [yamrestor] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-29T10:41:09.015Z  INFO 13532 --- [yamrestor] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4c2cbaa8
+2026-06-29T10:41:09.016Z  INFO 13532 --- [yamrestor] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-29T10:41:09.109Z  INFO 13532 --- [yamrestor] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-29T10:41:11.212Z  INFO 13532 --- [yamrestor] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-29T10:41:11.525Z  INFO 13532 --- [yamrestor] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-29T10:41:11.839Z  INFO 13532 --- [yamrestor] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-29T10:41:13.496Z  INFO 13532 --- [yamrestor] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-29T10:41:15.427Z  WARN 13532 --- [yamrestor] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2026-06-29T10:41:15.848Z  WARN 13532 --- [yamrestor] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2026-06-29T10:41:15.883Z  WARN 13532 --- [yamrestor] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-06-29T10:41:15.893Z  INFO 13532 --- [yamrestor] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-29T10:41:15.896Z  INFO 13532 --- [yamrestor] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-29T10:41:15.902Z  INFO 13532 --- [yamrestor] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-29T10:41:15.924Z  INFO 13532 --- [yamrestor] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-06-29T10:41:15.953Z ERROR 13532 --- [yamrestor] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2026-06-29T11:20:47.149Z  INFO 31520 --- [yamrestor] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-29T11:20:47.168Z  INFO 31520 --- [yamrestor] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-29T11:20:47.238Z  INFO 31520 --- [yamrestor] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 69 ms
+2026-06-29T11:20:48.383Z  WARN 31520 --- [yamrestor] [http-nio-8080-exec-2] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2026-06-29T11:20:48.423Z  WARN 31520 --- [yamrestor] [http-nio-8080-exec-2] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2026-06-29T11:35:45.926Z  INFO 20776 --- [yamrestor] [restartedMain] yamrestor.restor.RestorApplication       : Starting RestorApplication using Java 19 with PID 20776 (C:\projet-spring\yamrestor\yamrestor-back\target\classes started by HP in C:\projet-spring\yamrestor\yamrestor-back)
+2026-06-29T11:35:45.929Z  INFO 20776 --- [yamrestor] [restartedMain] yamrestor.restor.RestorApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-06-29T11:35:45.989Z  INFO 20776 --- [yamrestor] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-29T11:35:45.989Z  INFO 20776 --- [yamrestor] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-29T11:35:47.591Z  INFO 20776 --- [yamrestor] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-29T11:35:47.884Z  INFO 20776 --- [yamrestor] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 282 ms. Found 42 JPA repository interfaces.
+2026-06-29T11:35:49.297Z  INFO 20776 --- [yamrestor] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-06-29T11:35:49.320Z  INFO 20776 --- [yamrestor] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-29T11:35:49.320Z  INFO 20776 --- [yamrestor] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-06-29T11:35:49.384Z  INFO 20776 --- [yamrestor] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-29T11:35:49.385Z  INFO 20776 --- [yamrestor] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3396 ms
+2026-06-29T11:35:49.616Z  INFO 20776 --- [yamrestor] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-29T11:35:49.708Z  INFO 20776 --- [yamrestor] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.53.Final
+2026-06-29T11:35:49.760Z  INFO 20776 --- [yamrestor] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-06-29T11:35:50.147Z  INFO 20776 --- [yamrestor] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-29T11:35:50.191Z  INFO 20776 --- [yamrestor] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-29T11:35:50.467Z  INFO 20776 --- [yamrestor] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@a996cac
+2026-06-29T11:35:50.469Z  INFO 20776 --- [yamrestor] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-29T11:35:50.565Z  INFO 20776 --- [yamrestor] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-29T11:35:53.353Z  INFO 20776 --- [yamrestor] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-29T11:35:54.021Z  INFO 20776 --- [yamrestor] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-29T11:35:54.365Z  INFO 20776 --- [yamrestor] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-29T11:35:56.276Z  INFO 20776 --- [yamrestor] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-29T11:35:58.590Z  WARN 20776 --- [yamrestor] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2026-06-29T11:35:58.983Z  INFO 20776 --- [yamrestor] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-06-29T11:35:59.041Z  INFO 20776 --- [yamrestor] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-06-29T11:35:59.056Z  INFO 20776 --- [yamrestor] [restartedMain] yamrestor.restor.RestorApplication       : Started RestorApplication in 13.839 seconds (process running for 14.779)
+2026-06-29T11:35:59.737Z  WARN 20776 --- [yamrestor] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-06-29T11:35:59.737Z  WARN 20776 --- [yamrestor] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-06-29T11:38:55.798Z  INFO 20776 --- [yamrestor] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-29T11:38:55.808Z  INFO 20776 --- [yamrestor] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-29T11:38:55.924Z  INFO 20776 --- [yamrestor] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 116 ms
+2026-06-29T11:39:06.697Z  WARN 20776 --- [yamrestor] [http-nio-8080-exec-10] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2026-06-29T11:44:43.369Z  WARN 20776 --- [yamrestor] [http-nio-8080-exec-9] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2026-06-29T13:04:40.323Z  WARN 20776 --- [yamrestor] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m48s298ms962µs300ns).
+2026-06-29T13:11:04.442Z  WARN 20776 --- [yamrestor] [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.hibernate.LazyInitializationException: Could not initialize proxy [yamrestor.restor.entity.traiteur.DevisEntity#1] - no session]
+2026-06-29T13:12:53.315Z  WARN 20776 --- [yamrestor] [http-nio-8080-exec-1] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2026-06-29T13:23:47.711Z  WARN 20776 --- [yamrestor] [http-nio-8080-exec-3] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2026-06-29T13:50:28.876Z  WARN 20776 --- [yamrestor] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m17s676ms542µs199ns).
+2026-06-29T14:04:33.168Z  WARN 20776 --- [yamrestor] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m4s292ms197µs100ns).
+2026-06-29T15:09:34.424Z  WARN 20776 --- [yamrestor] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h5m22s626ms182µs201ns).
